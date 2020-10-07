@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.card {
+  overflow: auto;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 0px #ccc;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 0px solid rgb(148, 148, 148);
+  /* height: 390px; */
+  width: 400px;
+  margin: 0.5em auto;
+}
+.card:hover {
+  box-shadow: 0px 0px 5px 0px rgb(148, 148, 148);
+}
+.card img {
+  width: 100%;
+}
+.card p {
+  margin: 0;
+}
+.card h3 {
+  margin: 8px 0;
+}
+.text-container {
+  border-bottom: 1px solid rgb(197, 197, 197);
+  padding: 12px;
+}
+.text-container p {
+  color: rgb(82, 82, 82);
+  font-size: 0.85em;
+}
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+.toolbar i:hover {
+  cursor: pointer;
+}
+.toolbar i {
+  font-size: 0.7em;
+  margin-left: 10px;
+}
+.toolbar i:nth-child(2) {
+  color: rgb(255, 110, 110);
+}
+.toolbar i:nth-child(1) {
+  color: rgb(73, 116, 158);
+}
+.toolbar i:nth-child(3) {
+  color: rgb(55, 177, 76);
+}
