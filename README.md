@@ -1,3 +1,5 @@
 # React Social Cards
 
-[](https://i.imgur.com/OGhDxVj.png?1)
+Practice with react components.
+
+![img](https://i.imgur.com/OGhDxVj.png?1)
